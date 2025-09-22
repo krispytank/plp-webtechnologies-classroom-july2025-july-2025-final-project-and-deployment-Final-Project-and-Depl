@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtVision Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+        
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ArtVision Gallery</h1>
+            <p>Discover beautiful artworks from around the world</p>
+        </header>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="urban">Urban</button>
+            <button class="filter-btn" data-filter="portrait">Portrait</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="images/mount_kilimanjaro.jpg" alt="Mountain Landscape">
+                <div class="item-info">
+                    <h3>Mountain Majesty</h3>
+                    <p>Breathtaking view of snow-capped mountains at sunrise</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="urban">
+                <img src="images/urban_skyline.jpg" alt="City Skyline">
+                <div class="item-info">
+                    <h3>City Lights</h3>
+                    <p>Urban skyline at dusk with illuminated buildings</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="portrait">
+                <img src="images/potrait_china.jpg" alt="Portrait of Woman">
+                <div class="item-info">
+                    <h3>Portrait of Maria</h3>
+                    <p>Studio portrait with dramatic lighting</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="abstract">
+                <img src="images/abstract_paint.jpg" alt="Abstract Art">
+                <div class="item-info">
+                    <h3>Color Fusion</h3>
+                    <p>Abstract painting with vibrant colors and textures</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="images/forest.jpg" alt="Forest Path">
+                <div class="item-info">
+                    <h3>Forest Path</h3>
+                    <p>Sunlight filtering through trees in a lush forest</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="urban">
+                <img src="images/urban_house.jpg" alt="City Architecture">
+                <div class="item-info">
+                    <h3>Urban Geometry</h3>
+                    <p>Modern architecture with strong geometric elements</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="portrait">
+                <img src="images/man.jpg" alt="Portrait of Man">
+                <div class="item-info">
+                    <h3>Thoughtful Moment</h3>
+                    <p>Candid portrait capturing a pensive expression</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="abstract">
+                <img src="images/abstract_galaxy.jpg" alt="Abstract Texture">
+                <div class="item-info">
+                    <h3>Textured Dreams</h3>
+                    <p>Mixed media artwork with intricate textures</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lightbox">
+            <div class="lightbox-content">
+                <span class="close-btn">&times;</span>
+                <img src="" alt="">
+                <p class="caption"></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>ArtVision Gallery &copy; 2025 | Brian Kiprono</p>
+        </footer>
+    </div>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
